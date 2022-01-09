@@ -1,0 +1,204 @@
+<!-- Thirus video tutorial : landing page creatin with tailwind css -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="/output/tailwind.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header
+      class="h-16 bg-black sticky inset-0 md:bg-gradient-to-r from-blue-500 to-cyan-400 grid align-middle"
+    >
+      <div class="flex px-10 justify-between">
+        <!-- logo -->
+        <div class="flex items-center">
+          <img
+            class="h-14 md:h-7 lg:h-14 rounded-full"
+            src="img/c2.jpg"
+            alt=""
+          />
+          <span
+            class="text-white text-xl md:text-sm lg:text-xl font-semibold px-2 font-primary tracking-wider"
+            >Tailwind</span
+          >
+        </div>
+        <!-- logo ends -->
+
+        <nav class="flex items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-8 border rounded-sm border-gray-400 text-white md:hidden"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+          <div
+            class="hidden md:inline-flex lg:inline-flex text-sm lg:text-base lg:space-x-8 text-white space-x-4 font-primary"
+          >
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Screenshots</a>
+            <a href="#">Testimonial</a>
+            <a href="#">Plans</a>
+            <a href="#">Download</a>
+            <a href="#">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- navbar end -->
+
+    <!-- Home section -->
+    <section class="bg-gradient-to-r from-blue-500 to-cyan-400">
+      <div
+        class="text-white pt-10 px-8 max-w-lg md:max-w-xl lg:max-w-6xl mx-auto lg:flex lg:items-center items-center"
+      >
+        <div class="lg:pt-20 lg:pb-44">
+          <h1
+            class="capitalize font-bold text-xl xs:text-2xl lg:text-4xl leading-relaxed font-primary"
+          >
+            Get your app landing page <br />with tailwind template . . .
+          </h1>
+          <p class="pt-10 text-sm font-light leading-loose">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            repudiandae, beatae amet reiciendis optio iusto? Ipsa id voluptatem
+            voluptates eligendi inventore sed repellendus odio vel consequatur,
+            dicta rerum minima natus reiciendis commodi quis autem repellat
+            fugiat fugit quod blanditiis! Dolore?
+          </p>
+          <a
+            href="#"
+            class="border-2 bg-white text-blue-500 capitalize inline-block mt-10 px-8 py-3 rounded-full font-semibold hover:bg-lime-500 hover:text-white active:bg-black active:text-amber-500 font-primary tracking-wider text-sm mr-4"
+            >download now</a
+          >
+          <a
+            href="#"
+            class="border-2 border-white capitalize inline-block mt-5 px-8 py-3 rounded-full font-semibold hover:bg-lime-500 hover:text-white active:bg-black active:text-amber-500 font-primary tracking-wider text-sm"
+            >get started . . .
+          </a>
+        </div>
+
+        <img
+          class="mt-10 rounded-tl-3xl rounded-br-3xl lg:h-80 lg:ml-7"
+          src="/img/mob.jpg"
+          alt="mob"
+        />
+      </div>
+    </section>
+    <!-- Home section ends -->
+
+    <section class="min-h-screen bg-gray-50">
+      <div class="py-16 text-center">
+        <h2
+          class="bg-blue-200 inline-block px-7 py-1 rounded-full tracking-wider font-primary font-bold uppercase text-sm"
+        >
+          Features
+        </h2>
+        <h3
+          class="mt-4 bg-gradient-to-b from-cyan-300 to-cyan-600 bg-clip-text text-transparent text-2xl font-semibold font-primary tracking-wide"
+        >
+          Amazing Features
+        </h3>
+      </div>
+      <div class="px-4 lg:grid lg:grid-cols-3 gap-4">
+        <div class="grid items-center">
+          <div class="flex space-x-4 mr-4">
+            <div>
+              <h4 class="text-2xl font-primary font-bold">User Friendly</h4>
+              <p class="pt-3 text-sm text-gray-500 leading-loose">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                ad minus. Sequi fugit dolorum repudiandae!
+              </p>
+            </div>
+            <div
+              class="bg-gradient-to-r from-blue-500 to-cyan-400 h-16 w-16 flex-shrink-0 rounded-full"
+            ></div>
+          </div>
+          <div class="flex mt-6 space-x-4 mr-4">
+            <div>
+              <h4 class="text-2xl font-primary font-bold">Super Fast Speed</h4>
+              <p class="pt-3 text-sm text-gray-500 leading-loose">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                ad minus. Sequi fugit dolorum repudiandae!
+              </p>
+            </div>
+            <div
+              class="bg-gradient-to-r from-blue-500 to-cyan-400 h-16 w-16 flex-shrink-0 rounded-full"
+            ></div>
+          </div>
+          <div class="flex mt-6 space-x-4 mr-4">
+            <div>
+              <h4 class="text-2xl font-primary font-bold">24/7 Support</h4>
+              <p class="pt-3 text-sm text-gray-500 leading-loose">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                ad minus. Sequi fugit dolorum repudiandae!
+              </p>
+            </div>
+            <div
+              class="bg-gradient-to-r from-blue-500 to-cyan-400 h-16 w-16 flex-shrink-0 rounded-full"
+            ></div>
+          </div>
+        </div>
+        <img
+          src="/img/App-3.png"
+          alt="app"
+          class="my-8 max-h-80 mx-auto md:max-h-fit lg:max-h-fit lg:grid lg:items-center"
+        />
+        <div class="grid items-center">
+          <div class="flex flex-row-reverse space-x-reverse space-x-4 ml-4">
+            <div>
+              <h4 class="text-2xl font-primary font-bold">Secure</h4>
+              <p class="pt-3 text-sm text-gray-500 leading-loose">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                ad minus. Sequi fugit dolorum repudiandae!
+              </p>
+            </div>
+            <div
+              class="bg-gradient-to-r from-blue-500 to-cyan-400 h-16 w-16 flex-shrink-0 rounded-full"
+            ></div>
+          </div>
+          <div
+            class="flex flex-row-reverse space-x-reverse mt-6 space-x-4 ml-4"
+          >
+            <div>
+              <h4 class="text-2xl font-primary font-bold">Awesome Rating</h4>
+              <p class="pt-3 text-sm text-gray-500 leading-loose">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                ad minus. Sequi fugit dolorum repudiandae!
+              </p>
+            </div>
+            <div
+              class="bg-gradient-to-r from-blue-500 to-cyan-400 h-16 w-16 flex-shrink-0 rounded-full"
+            ></div>
+          </div>
+          <div
+            class="flex flex-row-reverse space-x-reverse mt-6 space-x-4 ml-4"
+          >
+            <div>
+              <h4 class="text-2xl font-primary font-bold">Award Winning</h4>
+              <p class="pt-3 text-sm text-gray-500 leading-loose">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                ad minus. Sequi fugit dolorum repudiandae!
+              </p>
+            </div>
+            <div
+              class="bg-gradient-to-r from-blue-500 to-cyan-400 h-16 w-16 flex-shrink-0 rounded-full"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
